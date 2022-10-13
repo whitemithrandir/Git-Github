@@ -1,6 +1,6 @@
 # farklı brache dosya yollama
-git brach
-git brach mordor
+git branch
+git branch mordor
 git switch mordor
 git add .
 git push origin mordor
@@ -25,3 +25,4 @@ git clone https://github.com/whitemithrandir/Git-Github.git
 
 #error remote origin already exists. hatası çözümü
 git remote set-url origin YOUR-ORIGIN-URL
+git push -u origin master
