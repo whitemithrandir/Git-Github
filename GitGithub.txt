@@ -1,0 +1,27 @@
+# farklı brache dosya yollama
+git brach
+git brach mordor
+git switch mordor
+git add .
+git push origin mordor
+
+
+
+# remote ile local arası sorgulama işlem yapma
+git branch -r 
+git fetch origin master
+git checkout origin/master
+git checkout master
+git pull origin master
+git status
+
+
+
+#remote pc'den local pc'ye veri çekme
+cd desktop
+git clone https://github.com/whitemithrandir/Git-Github.git
+
+
+
+#error remote origin already exists. hatası çözümü
+git remote set-url origin YOUR-ORIGIN-URL
