@@ -27,7 +27,9 @@ git clone https://github.com/whitemithrandir/Git-Github.git
 git remote set-url origin YOUR-ORIGIN-URL
 git push -u origin master
 
-#Github’a 8 Adımda Git ile Proje Yükleme
+
+
+#Github’a Proje Yükleme
 git init
 git add README.md
 git add . 
@@ -35,3 +37,12 @@ git add PATH #sadece bunu ekleyip başka değişiklik yapmak istemiyorsan
 git commit -m "ilk commit"
 git remote add origin PATH
 git push -u origin master
+
+
+********************* MITHRANDIR *********************
+
+pwd 		# nerede olduğunu gösterir
+ls 		# içindekileri gösterir
+ls -la 	# gizli klasörleri de gösterir
+git status 	# güncel durumu gösterir
+
