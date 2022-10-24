@@ -26,3 +26,12 @@ git clone https://github.com/whitemithrandir/Git-Github.git
 #error remote origin already exists. hatası çözümü
 git remote set-url origin YOUR-ORIGIN-URL
 git push -u origin master
+
+#Github’a 8 Adımda Git ile Proje Yükleme
+git init
+git add README.md
+git add . 
+git add PATH #sadece bunu ekleyip başka değişiklik yapmak istemiyorsan
+git commit -m "ilk commit"
+git remote add origin PATH
+git push -u origin master
