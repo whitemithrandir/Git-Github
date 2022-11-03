@@ -21,7 +21,8 @@ git status
 cd desktop
 git clone https://github.com/whitemithrandir/Git-Github.git
 
-
+#remote pc'den local pc'yi güncelleme
+git pull
 
 #error remote origin already exists. hatası çözümü
 git remote set-url origin YOUR-ORIGIN-URL
